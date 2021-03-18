@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 56px;
+  background: #000000;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  font-size: 22px;
+}
+
+.header .header__menu {
+  margin: 0;
+}
+
+.header .header__menu span {
+  margin-right: 10px;
+}
+
+.header .header__menu .menu__youtube {
+  color: red;
+}
+
+.header .header__buscador input {
+  width: 431px;
+  height: 32px;
+}
+
+.header .header__buscador .buscador__boton {
+  width: 65px;
+  height: 32px;
+  background: #FFFFFF14;
+}
+
+.header .header__perfil i {
+  margin-right: 10px;
+}
+
+.nav {
+  background-color: #141111;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 72px;
+  height: 91vh;
+  font-size: 11px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav div {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav div i {
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */
