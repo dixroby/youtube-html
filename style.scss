@@ -13,50 +13,67 @@
   .header__menu {
     margin: 0;
 
-    span{
-        margin-right: 10px;
+    span {
+      margin-right: 10px;
     }
-    .menu__youtube{
-        color: red;
-    }
-
-  }
-  .header__buscador{
-    input{
-        width: 431px;
-        height: 32px;
-    }
-    .buscador__boton{
-        width: 65px;
-        height: 32px;
-        background: #FFFFFF14;
+    .menu__youtube {
+      color: red;
     }
   }
-  .header__perfil{
+  .header__buscador {
+    input {
+      width: 431px;
+      height: 32px;
+    }
+    .buscador__boton {
+      width: 65px;
+      height: 32px;
+      background: #ffffff14;
+    }
+  }
+  .header__perfil {
     i {
-        margin-right: 10px;
+      margin-right: 10px;
     }
   }
-  
 }
-.nav{
-    background-color: #141111;
-    color: white;
+.nav {
+  background-color: #141111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 72px;
+  font-size: 11px;
+  align-items: center;
+  div {
+    margin: 10px 0;
+
     display: flex;
     flex-direction: column;
-    width: 72px;
-    height: 91vh;
-    font-size: 11px;
     align-items: center;
-    div{
-        margin: 10px 0;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        i{
-            font-size: 18px;
-        }
+    justify-content: center;
+    i {
+      font-size: 18px;
     }
+  }
+}
+
+.cuerpo {
+  display: flex;
+  .section {
+      background: #3d3c3c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .lista__video {
+      width: 320px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      margin: 20px 10px;
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
